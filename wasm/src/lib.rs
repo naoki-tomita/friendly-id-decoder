@@ -1,9 +1,8 @@
 use wasm_bindgen::prelude::*;
-pub mod friendly_id;
 
 #[wasm_bindgen]
 pub fn decode(id: &str) -> String {
-    friendly_id::friendly_id::decode(id).unwrap().to_string()
+    friendly_id::decode(id).unwrap().to_string()
 }
 
 #[cfg(test)]
