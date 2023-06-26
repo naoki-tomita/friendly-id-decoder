@@ -8,6 +8,8 @@
     "vite-plugin-wasm": "^3.2.2"
   },
   "scripts": {
-    "build": "vite build --base=/friendly-id-decoder/dist/"
+    "build": "vite build --base=/friendly-id-decoder/dist/ --target=esnext",
+    "dev": "vite .",
+    "setup": "cd wasm && yarn link && cd .. && yarn link wasm"
   }
 }
