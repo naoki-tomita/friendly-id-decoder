@@ -1,4 +1,4 @@
-import { decode } from "wasm";
+import { decode } from "friendly_id_wasm";
 
 const input = document.getElementById("input") as HTMLInputElement;
 const dst = document.getElementById("dst") as HTMLInputElement;
