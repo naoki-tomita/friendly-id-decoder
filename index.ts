@@ -10,6 +10,7 @@ async function main() {
       dst.value = result;
     } catch (e) {
       dst.value = "なんかおかしいです";
+      console.log(e);
     }
   });
 }
