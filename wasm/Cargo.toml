@@ -9,7 +9,6 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-friendly_id = { git = "https://github.com/naoki-tomita/friendly_id.git", branch = "master" }
-wasm-bindgen = "0.2"
+friendly_id = { git = "https://github.com/naoki-tomita/friendly_id.git", rev = "5930ce7" }
 
-getrandom = { version = "0.2", features = ["js"] }
+wasm-bindgen = "0.2"
