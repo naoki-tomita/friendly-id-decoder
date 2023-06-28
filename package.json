@@ -4,6 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "@kojiro.ueda/friendly-id": "^0.0.1",
     "vite": "^4.3.9",
     "vite-plugin-wasm": "^3.2.2"
   },

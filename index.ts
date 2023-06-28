@@ -1,4 +1,4 @@
-import { decode } from "friendly_id_wasm";
+import { decode } from "@kojiro.ueda/friendly-id";
 
 const input = document.getElementById("input") as HTMLInputElement;
 const dst = document.getElementById("dst") as HTMLInputElement;
